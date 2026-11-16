@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
-<title>AARF Dashboard</title>
+<title>APX Dashboard</title>
 <link rel="icon" href="images/logo.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;700&display=swap">
 <style>
@@ -67,7 +67,7 @@ input[type=password],input[type=search],select{width:100%;min-height:2.9rem;bord
 <script>
 (function(){
 var SHEET_URL='';   // optional: paste your Google Sheet link to show an "Open sheet" button
-var API=CONFIG.scriptUrl, KEY=''; try{KEY=localStorage.getItem('aarf_admin')||''}catch(x){}
+var API=CONFIG.scriptUrl, KEY=''; try{KEY=localStorage.getItem('apx_admin')||''}catch(x){}
 var D=null, tab='new', q='', fs='', pick=null, mo=new Date(); mo.setDate(1);
 var root=document.getElementById('root'), sub=document.getElementById('sub'), rf=document.getElementById('rf'), out=document.getElementById('out');
 function h(t,a){var e=document.createElement(t);a=a||{};for(var k in a){if(k==='class')e.className=a[k];else if(k.slice(0,2)==='on')e[k]=a[k];else if(a[k]!==false&&a[k]!=null)e.setAttribute(k,a[k])}
@@ -81,7 +81,7 @@ function st(r){return String(r.status||'New').toLowerCase()}
 function days(s){return Math.round((pd(s)-pd(D.now))/864e5)}
 function away(s){var n=days(s);return n===0?'Today':n===1?'Tomorrow':n>1?'in '+n+' days':Math.abs(n)+' days ago'}
 function wa(r){var n=String(r.phone).replace(/\D/g,'');if(n[0]==='0')n='63'+n.slice(1);
- var t=r.reply||('Hi '+r.name+', this is AARF Karaoke & Event Rentals. Thank you for your request for '+fd(r.date)+'!');return 'https://wa.me/'+n+'?text='+encodeURIComponent(t)}
+ var t=r.reply||('Hi '+r.name+', this is APX Equipment Solutions. Thank you for your request for '+fd(r.date)+'!');return 'https://wa.me/'+n+'?text='+encodeURIComponent(t)}
 
 function login(msg){
  rf.hidden=out.hidden=true; sub.textContent='';
