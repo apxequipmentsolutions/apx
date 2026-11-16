@@ -2,12 +2,12 @@
    Lines starting with "## " are headings, lines starting with "• " are bullet points, other lines are paragraphs. */
 var LEGAL = {
 terms: `
-These Terms of Service ("Terms") govern your use of our website and booking forms, and your rental of karaoke, speaker, lights, and related equipment from AARF Karaoke & Event Rentals ("AARF Rentals," "we," "us," or "our"), located at 401 Centennial Road, Brgy. Upper Pag-asa, Bansud, Oriental Mindoro. By submitting a booking or inquiry form, you ("Customer," "you") agree to these Terms. If you do not agree, please do not use our services.
+These Terms of Service ("Terms") govern your use of our website and booking forms, and your rental of karaoke, speaker, lights, and related equipment from APX Equipment Solutions ("APX Rentals," "we," "us," or "our"), located at 401 Centennial Road, Brgy. Upper Pag-asa, Bansud, Oriental Mindoro. By submitting a booking or inquiry form, you ("Customer," "you") agree to these Terms. If you do not agree, please do not use our services.
 ## 1. Eligibility
 You must be of legal age and able to enter into a binding contract under Philippine law. You must present a valid government-issued ID when your rental is confirmed and when the equipment is released.
 ## 2. Bookings and Rental Agreement
 2.1 Submitting a form is a request to book. A booking is confirmed only when we confirm it and the reservation fee is received.
-2.2 Each confirmed rental is covered by a signed AARF Karaoke & Event Rentals Agreement, including Annex A (Payment and Rental Record) and Annex B (Equipment Checklist and Condition Report). If these Terms and the signed Agreement differ, the signed Agreement prevails.
+2.2 Each confirmed rental is covered by a signed APX Equipment Solutions Agreement, including Annex A (Payment and Rental Record) and Annex B (Equipment Checklist and Condition Report). If these Terms and the signed Agreement differ, the signed Agreement prevails.
 2.3 You must accurately state the type of event, the expected crowd, and the intended use of the equipment. If the actual event materially differs from what you declared (for example, a significantly larger crowd, public access, or commercial use), we may adjust the rental fee, require an additional deposit, or decline or discontinue the rental, without prejudice to amounts already due.
 ## 3. Rental Period and Extensions
 3.1 The standard rental period is twenty-two (22) hours, counted from the start time stated in your booking.
@@ -21,7 +21,7 @@ You must be of legal age and able to enter into a binding contract under Philipp
 ## 5. Cancellations and Refunds
 5.1 You may cancel and receive a full refund of the reservation fee if you notify us on or before 3:00 PM on the day before the scheduled rental date.
 5.2 Cancellations made after 3:00 PM on the day before the rental date, including on the rental date itself, are not refundable, and the reservation fee is forfeited in our favor.
-5.3 Cancellation requests must be sent to aarfkaraoke.events@gmail.com or through the contact channel we used to confirm your booking.
+5.3 Cancellation requests must be sent to apxequipmentsolutions@gmail.com or through the contact channel we used to confirm your booking.
 ## 6. Delivery and Pick-Up
 6.1 Delivery within five (5) kilometers of our address is free.
 6.2 For distances beyond five (5) kilometers, a delivery charge of ₱30.00 per kilometer, or a fraction thereof, applies, measured from our address to the delivery location. This charge is payable on or before delivery.
@@ -43,12 +43,12 @@ You must be of legal age and able to enter into a binding contract under Philipp
 10.1 We are not liable for indirect, incidental, or consequential damages, including loss of income or disruption of your event, arising from equipment malfunction, except where caused by our gross negligence or willful misconduct.
 10.2 Our total liability under any rental is limited to the total rental fee you paid for that rental.
 ## 11. Indemnification
-You agree to indemnify and hold AARF Rentals free and harmless from any claims, damages, or liabilities arising from your use, misuse, or operation of the equipment during the rental period, except where caused by our gross negligence or willful misconduct.
+You agree to indemnify and hold APX Rentals free and harmless from any claims, damages, or liabilities arising from your use, misuse, or operation of the equipment during the rental period, except where caused by our gross negligence or willful misconduct.
 ## 12. Data Privacy
-12.1 When you submit a form, you consent to the collection, use, and sharing of your personal information with AARF Rentals in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173) and our Data Privacy Policy.
+12.1 When you submit a form, you consent to the collection, use, and sharing of your personal information with APX Rentals in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173) and our Data Privacy Policy.
 12.2 We collect information such as your name, contact details, address, event details, and government ID details for booking, identity verification, payment records, and enforcement of your rental agreement.
 12.3 We keep your personal information confidential and do not use it for purposes unrelated to your rental.
-12.4 You may withdraw your consent, or ask to access or correct your information, at any time by contacting aarfkaraoke.events@gmail.com. Withdrawing consent may affect our ability to process or continue your rental.
+12.4 You may withdraw your consent, or ask to access or correct your information, at any time by contacting apxequipmentsolutions@gmail.com. Withdrawing consent may affect our ability to process or continue your rental.
 ## 13. Website and Online Forms
 You agree to provide true and accurate information in our forms and not to misuse our website, submit false bookings, or attempt to interfere with its operation. We may refuse or cancel bookings that contain false or misleading information.
 ## 14. Changes to These Terms
@@ -56,10 +56,10 @@ We may update these Terms from time to time. The updated version takes effect on
 ## 15. Governing Law and Venue
 These Terms are governed by the laws of the Republic of the Philippines. Any dispute arising from these Terms or your rental must be brought exclusively before the proper courts of Oriental Mindoro, to the exclusion of all other venues.
 ## 16. Contact Us
-AARF Karaoke & Event Rentals, 401 Centennial Road, Brgy. Upper Pag-asa, Bansud, Oriental Mindoro. Email: aarfkaraoke.events@gmail.com
+APX Equipment Solutions, 401 Centennial Road, Brgy. Upper Pag-asa, Bansud, Oriental Mindoro. Email: apxequipmentsolutions@gmail.com
 `,
 privacy: `
-AARF Karaoke & Event Rentals ("AARF Rentals," "we," "us," or "our") respects your privacy and is committed to protecting your personal information in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173), its Implementing Rules and Regulations, and issuances of the National Privacy Commission (NPC). This Policy explains what personal information we collect, why we collect it, how we use and protect it, and the rights you have.
+APX Equipment Solutions ("APX Rentals," "we," "us," or "our") respects your privacy and is committed to protecting your personal information in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173), its Implementing Rules and Regulations, and issuances of the National Privacy Commission (NPC). This Policy explains what personal information we collect, why we collect it, how we use and protect it, and the rights you have.
 ## 1. Information We Collect
 When you fill out our forms, book a rental, or communicate with us, we may collect:
 • Identity and contact details: full name, mobile number, email address, and residential or delivery address.
@@ -84,7 +84,7 @@ We do not use your information for unrelated purposes without first asking for y
 We process your personal information based on your consent, the need to carry out your rental contract, our legitimate interests in protecting our equipment and business, and compliance with legal obligations.
 ## 5. Sharing and Disclosure
 We do not sell your personal information. We share it only when necessary:
-• Within AARF Rentals: with the owner, authorized representatives, and staff who handle your booking, delivery, and equipment.
+• Within APX Rentals: with the owner, authorized representatives, and staff who handle your booking, delivery, and equipment.
 • Service providers: with delivery personnel, payment channels (for example, GCash or your bank), and website, form, or messaging platforms we use to operate our business, who are required to protect your information.
 • Legal and safety reasons: with government agencies, law enforcement, or courts when required by law, or to protect our rights, such as recovering lost or stolen equipment.
 ## 6. Storage and Retention
@@ -109,5 +109,5 @@ Our services are for persons of legal age. We do not knowingly collect personal 
 ## 11. Changes to This Policy
 We may update this Policy from time to time. The updated version takes effect once posted, with a new "Last Updated" date. We encourage you to review it regularly.
 ## 12. Contact Us
-For questions, requests to exercise your rights, or to withdraw your consent, please contact our data privacy contact person: Aiza R. Falame, Authorized Representative, AARF Karaoke & Event Rentals, 401 Centennial Road, Brgy. Upper Pag-asa, Bansud, Oriental Mindoro. Email: aarfkaraoke.events@gmail.com
+For questions, requests to exercise your rights, or to withdraw your consent, please contact our data privacy contact person: Aiza R. Falame, Authorized Representative, APX Equipment Solutions, 401 Centennial Road, Brgy. Upper Pag-asa, Bansud, Oriental Mindoro. Email: apxequipmentsolutions@gmail.com
 `};
