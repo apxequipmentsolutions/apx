@@ -1,5 +1,5 @@
 /**
- * AARF Karaoke & Event Rentals - booking backend (Google Apps Script)
+ * APX Equipment Solutions - booking backend (Google Apps Script)
  *
  * Sheets:
  *   "Requests" -> every booking request from the website. You change the Status
@@ -27,8 +27,8 @@
  */
 
 // Put your email here to get a message for every new request. Leave '' to turn off.
-const NOTIFY_EMAIL = 'aarfkaraoke.events@gmail.com';
-const BUSINESS = 'AARF Karaoke & Event Rentals';
+const NOTIFY_EMAIL = 'apxequipmentsolutions@gmail.com';
+const BUSINESS = 'APX Equipment Solutions';
 
 const DATES_SHEET = 'Dates';
 const REQUESTS_SHEET = 'Requests';
