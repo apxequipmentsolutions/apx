@@ -2,7 +2,7 @@
    SETTINGS: edit this part only
    ===================================================================== */
 var CONFIG = {
-  name: 'AARF Karaoke & Event Rentals',
+  name: 'APX Equipment Solutions',
   logo: 'images/logo.png',
   // Silent refresh (the page never reloads or blinks; only the parts that changed are redrawn).
   // checkSeconds: how often the page asks the Google Sheet "did anything change?" (5 = your sheet edits show up in a few seconds).
