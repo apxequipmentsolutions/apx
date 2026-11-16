@@ -29,9 +29,9 @@ var CONFIG = {
   // Paste your Google Apps Script Web App URL here (ends with /exec)
   scriptUrl: 'https://script.google.com/macros/s/AKfycbwqhNEoouzYMSKhQU_NKWPaujVfk3RaJnAjSMNCM73jHBY_qbGj1rLtt_N6145VZdnuUw/exec',
   // Your Facebook page username, for the optional Messenger button (example: 'myvideokepage'). Leave '' to hide.
-  messenger: '1368190183045322',
+  messenger: '1495137980339235',
   // Facebook page opened when the logo is tapped. Paste your full page link (example: 'https://www.facebook.com/yourpage'). Leave '' to use the Messenger page above.
-  facebook: 'https://www.facebook.com/profile.php?id=61595115668773',
+  facebook: 'https://www.facebook.com/profile.php?id=61596881150783',
   // Phone number to show to customers. Leave '' to hide.
   phone: '0999 711 4240',
   // Numbers for the Viber and WhatsApp buttons (same number as your phone by default). Leave '' to hide a button.
