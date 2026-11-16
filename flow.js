@@ -32,7 +32,7 @@ function showAnn(){ if(!F('showAnnouncement')||sessionStorage.getItem('annSeen')
   ann.querySelector('#ann-go').disabled=need&&!ck.checked;
   ann.showModal(); sessionStorage.setItem('annSeen','1') }
 var loc=el('dialog',{class:'ann loc'},
-  el('div',{class:'loc-head'},el('img',{src:'images/logo.png',alt:'AARF'})),
+  el('div',{class:'loc-head'},el('img',{src:'images/logo.png',alt:'APX'})),
   el('h3',{text:'Allow location?'}),
   el('p',{text:'For better use of this webpage. Sharing your location lets us pin your event venue and work out delivery distance faster. You can skip this and type your address instead.'}),
   el('button',{class:'btn',text:'Allow location',on:{click:function(){loc.close();try{navigator.geolocation.getCurrentPosition(function(){},function(){},{timeout:8000})}catch(x){}}}}),
