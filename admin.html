@@ -96,8 +96,8 @@ function load(first){
  rf.textContent='...';
  fetch(API+'?admin=1&key='+encodeURIComponent(KEY)).then(function(r){return r.json()}).then(function(j){
   rf.textContent='Refresh';
-  if(!j.ok){try{localStorage.removeItem('aarf_admin')}catch(x){}login(j.error==='auth'?'That key is not right.':'Could not load data.');return}
-  try{localStorage.setItem('aarf_admin',KEY)}catch(x){}
+  if(!j.ok){try{localStorage.removeItem('apx_admin')}catch(x){}login(j.error==='auth'?'That key is not right.':'Could not load data.');return}
+  try{localStorage.setItem('apx_admin',KEY)}catch(x){}
   D=j;rf.hidden=out.hidden=false;draw()
  }).catch(function(){rf.textContent='Refresh';if(D){sub.textContent='Offline, showing last data'}else login('Could not reach the server. Check your internet.')})}
 
@@ -162,7 +162,7 @@ function draw(keep){
   h('p',{class:'note'},'To accept, hold or decline a request, change its Status in the Google Sheet. This page updates by itself.',SHEET_URL?[' ',h('a',{href:SHEET_URL,target:'_blank',rel:'noopener'},'Open sheet')]:null)].filter(Boolean));
  if(keep){var i=root.querySelector('input[type=search]');if(i){i.focus();i.setSelectionRange(i.value.length,i.value.length)}}}
 
-rf.onclick=function(){load()};out.onclick=function(){try{localStorage.removeItem('aarf_admin')}catch(x){}KEY='';D=null;login()};
+rf.onclick=function(){load()};out.onclick=function(){try{localStorage.removeItem('apx_admin')}catch(x){}KEY='';D=null;login()};
 setInterval(function(){if(D&&!document.hidden)load()},30000);
 document.addEventListener('visibilitychange',function(){if(D&&!document.hidden)load()});
 if(KEY)load(true);else login();
